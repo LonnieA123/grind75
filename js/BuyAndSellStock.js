@@ -3,7 +3,7 @@
 // Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
 
-=
+
 
 
 
@@ -48,7 +48,7 @@
              maxProfit = currentProfit
          }
 
-         //if our minPrice (which starts at the first price in the array) is less than the price our minPrice would now equal our current price
+         //if our minPrice (which starts at the first price in the array) is greater than the price our minPrice would now equal our current price
          if (minPrice > prices[i]){
              minPrice = prices[i]
          }
