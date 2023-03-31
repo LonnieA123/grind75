@@ -3,17 +3,8 @@
 // Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
 
+=
 
-// Example 1:
-// Input:
-prices =
-    [    7
-        ,1
-        ,5
-        ,3
-        ,6
-        ,4
-    ]
 
 
 
@@ -28,6 +19,15 @@ prices =
 // Output: 0
 // Explanation: In this case, no transactions are done and the max profit = 0.
 
+     prices =
+         [    7
+             ,1
+             ,5
+             ,3
+             ,6
+             ,4
+         ]
+
  let maxProfit = function(prices) {
 
    //initialize our max profit
@@ -39,8 +39,8 @@ prices =
      //loop through our prices parameter
      for (let i = 1; i < prices.length; i++){
 
-         //create currentprofit which is our minPrice subtracted by the current price we are on
-         //minprice starts off as the first price in our array
+         //create currentProfit (which is our minPrice subtracted by the current price we are on)
+         //minPrice starts off as the first price in our array
          let currentProfit = minPrice - prices[i];
 
          //if our max profit is less than our current profit our max profit would now be equal to the current profit
@@ -53,6 +53,8 @@ prices =
              minPrice = prices[i]
          }
      }
+
+     //return our end profit
      return maxProfit;
  };
 console.log(maxProfit(prices))
