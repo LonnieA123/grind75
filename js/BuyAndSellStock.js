@@ -41,7 +41,7 @@
 
          //create currentProfit (which is our minPrice subtracted by the current price we are on)
          //minPrice starts off as the first price in our array
-         let currentProfit = minPrice - prices[i];
+         let currentProfit =  prices[i] - minPrice ;
 
          //if our max profit is less than our current profit our max profit would now be equal to the current profit
          if (maxProfit < currentProfit){
