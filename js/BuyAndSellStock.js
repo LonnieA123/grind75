@@ -29,19 +29,26 @@ prices =
 // Explanation: In this case, no transactions are done and the max profit = 0.
 
  let maxProfit = function(prices) {
+
    //initialize our max profit
    let maxProfit = 0;
+
    //create our min price
    let minPrice = prices[0]
+
      //loop through our prices parameter
      for (let i = 1; i < prices.length; i++){
+
          //create currentprofit which is our minPrice subtracted by the current price we are on
          //minprice starts off as the first price in our array
          let currentProfit = minPrice - prices[i];
+
          //if our max profit is less than our current profit our max profit would now be equal to the current profit
          if (maxProfit < currentProfit){
              maxProfit = currentProfit
          }
+
+         //if our minPrice (which starts at the first price in the array) is less than the price our minPrice would now equal our current price
          if (minPrice > prices[i]){
              minPrice = prices[i]
          }
