@@ -35,6 +35,8 @@ prices =
    let minPrice = prices[0]
      //loop through our prices parameter
      for (let i = 1; i < prices.length; i++){
+         //create currentprofit which is our minPrice subtracted by the current price we are on
+         //minprice starts off as the first price in our array
          let currentProfit = minPrice - prices[i];
          if (maxProfit < currentProfit){
              maxProfit = currentProfit
