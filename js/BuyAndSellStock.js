@@ -31,6 +31,7 @@ prices =
  let maxProfit = function(prices) {
    //initialize our max profit
    let maxProfit = 0;
+   //create our min price
    let minPrice = prices[0]
      for (let i = 1; i < prices.length; i++){
          let currentProfit = minPrice - prices[i];
