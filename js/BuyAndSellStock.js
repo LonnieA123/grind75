@@ -29,6 +29,7 @@ prices =
 // Explanation: In this case, no transactions are done and the max profit = 0.
 
  let maxProfit = function(prices) {
+   //initialize our max profit
    let maxProfit = 0;
    let minPrice = prices[0]
      for (let i = 1; i < prices.length; i++){
