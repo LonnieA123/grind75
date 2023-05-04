@@ -27,6 +27,7 @@ function isPalindrome(input){
     console.log(input)
     //create our reverse variable to compare our parameter to
     let reverse = input.split('').reverse().join('')
+    //return if reverse and input are equal
     return input === reverse;
 }
 
