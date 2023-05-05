@@ -25,7 +25,7 @@ function isPalindrome(input){
     input = input.replace(/[^a-zA-Z0-9]/g, '')
     //log it to make sure
     console.log(input)
-
+    //create our reverse variable to compare our parameter to
     let reverse = input.split('').reverse().join('')
     return input === reverse;
 }
