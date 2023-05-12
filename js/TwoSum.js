@@ -21,7 +21,7 @@
 // Output: [0,1]
 
 
-
+//array 1
 let array = [1,6,7,4]
 let array2 = [1,5,6,7,4]
 
