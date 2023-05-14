@@ -23,6 +23,7 @@
 
 
 let array = [1,6,7,4]
+let array2 = [1,5,6,7,4]
 
 let twoSum = function(nums, target) {
     let output = []
@@ -41,3 +42,4 @@ let twoSum = function(nums, target) {
 };
 
 console.log(twoSum(array,5))
+console.log(twoSum(array2,9))
