@@ -23,6 +23,8 @@
 
 //array 1
 let array = [1,6,7,4]
+
+//array 2
 let array2 = [1,5,6,7,4]
 
 let twoSum = function(nums, target) {
