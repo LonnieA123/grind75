@@ -101,4 +101,4 @@ let isValid = function(string){
 
 
 
-console.log(isValid(s))
+console.log(isValid(second))
