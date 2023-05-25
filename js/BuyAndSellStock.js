@@ -28,17 +28,16 @@ prices =
 // Output: 0
 // Explanation: In this case, no transactions are done and the max profit = 0.
 
- var maxProfit = function(prices) {
-     let maxProfit = 0;
-     let minPrice = prices[0];
-     for (let i = 1; i < prices.length; i++) {
-         const currentPrice = prices[i];
-         const currentProfit = currentPrice - minPrice;
-         if (currentProfit > maxProfit) {
-             maxProfit = currentProfit;
+ let maxProfit = function(prices) {
+   let maxProfit = 0;
+   let minPrice = prices[0]
+     for (let i = 1; i < prices.length; i++){
+         let currentProfit = minPrice - prices[i];
+         if (maxProfit < currentProfit){
+             maxProfit = currentProfit
          }
-         if (currentPrice < minPrice) {
-             minPrice = currentPrice;
+         if (minPrice > prices[i]){
+             minPrice = prices[i]
          }
      }
      return maxProfit;
