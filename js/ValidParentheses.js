@@ -81,6 +81,8 @@ let f = "{[}]"
 
 
 let isValid = function(string){
+
+    //splits string
     string = string.split("");
     let brackets = [];
     for (let bracket of string){
