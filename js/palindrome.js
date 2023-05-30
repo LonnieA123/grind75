@@ -24,7 +24,7 @@ function isPalindrome(input){
     input = input.replace(/[^a-zA-Z0-9]/g, '')
     console.log(input)
     let reverse = input.split('').reverse().join('')
-    return input.toLowerCase() == reverse.toLowerCase();
+    return input.toLowerCase() === reverse.toLowerCase();
 }
 
 console.log(isPalindrome("0P"))
