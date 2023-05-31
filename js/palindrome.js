@@ -27,4 +27,4 @@ function isPalindrome(input){
     return input.toLowerCase() === reverse.toLowerCase();
 }
 
-console.log(isPalindrome("0P"))
+console.log(isPalindrome("racecar"))
