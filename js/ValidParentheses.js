@@ -95,6 +95,7 @@ let isValid = function(string){
             //if our bracket is closing, we look through our brackets array for the matching closing bracket
             let last = brackets[brackets.length - 1]
            if (bracket === "}" && last === "{" || bracket === "]" && last === "[" || bracket === ")" && last === "("){
+               //if theres a match pop it out of the array
                brackets.pop();
            } else {
                return false
