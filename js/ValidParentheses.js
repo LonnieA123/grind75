@@ -88,7 +88,7 @@ let isValid = function(string){
     let brackets = [];
     //loop through string which is the parameter
     for (let bracket of string){
-        //if the backet is opening push it to our brackets array
+        //if the bracket is opening push it to our brackets array
         if (bracket === "[" || bracket === "{" || bracket === "("){
             brackets.push(bracket);
         }else {
