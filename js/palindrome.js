@@ -23,6 +23,7 @@
 function isPalindrome(input){
     //remove special symbols and make everything lowercase
     input = input.replace(/[^a-zA-Z0-9]/g, '')
+    //log it to make sure
     console.log(input)
     let reverse = input.split('').reverse().join('')
     return input.toLowerCase() === reverse.toLowerCase();
