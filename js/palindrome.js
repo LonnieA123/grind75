@@ -21,6 +21,7 @@
 // Since an empty string reads the same forward and backward, it is a palindrome.
 
 function isPalindrome(input){
+    //remove special symbols and make everything lowercase
     input = input.replace(/[^a-zA-Z0-9]/g, '')
     console.log(input)
     let reverse = input.split('').reverse().join('')
