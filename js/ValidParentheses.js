@@ -17,17 +17,7 @@
 // Input: s = "(]"
 // Output: false
 
-let first = "[]"
 
-let second = "{}()[]"
-
-let th = "[}[]"
-
-let third = "[][}"
-
-let s = "{[]}"
-
-let f = "{[}]"
 
 
 
@@ -78,7 +68,17 @@ let f = "{[}]"
 //     return stack.length === 0;
 // };
 
+let first = "[]"
 
+let second = "{}()[]"
+
+let th = "[}[]"
+
+let third = "[][}"
+
+let s = "{[]}"
+
+let f = "{[}]"
 
 let isValid = function(string){
 
@@ -88,6 +88,7 @@ let isValid = function(string){
     let brackets = [];
     //loop through string which is the parameter
     for (let bracket of string){
+        //if the backet is opening push it to our brackets array
         if (bracket === "[" || bracket === "{" || bracket === "("){
             brackets.push(bracket);
         }else {
