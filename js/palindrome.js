@@ -31,4 +31,4 @@ function isPalindrome(input){
     return input === reverse;
 }
 
-console.log(isPalindrome("racecar"))
+console.log(isPalindrome("racecarsz"))
