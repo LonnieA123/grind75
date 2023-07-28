@@ -30,26 +30,26 @@ let mergeTwoSortedLists = function (list1, list2) {
     let output = [];
     let i = 0;
     let j = 0;
-
-    while (i < list1.length && j < list2.length) {
-        if (list1[i] <= list2[j]) {
-            output.push(list1[i]);
-            i++;
-        } else {
-            output.push(list2[j]);
-            j++;
+    while(i < list1.length && j < list2.length){
+        if (list1[i] < list2[j]){
+            output.push(list1[i])
+            i++
+        }
+        else {
+            output.push(list2[j])
+            j++
         }
     }
 
-    while (i < list1.length) {
-        output.push(list1[i]);
-        i++;
-    }
-    while (j < list2.length) {
-        output.push(list2[j]);
-        j++;
+    while(i < list1.length){
+        output.push(list1[i])
+        i++
     }
 
+    while (j < list2.length){
+        output.push(list2[j])
+        j++
+    }
     return output;
 }
 
