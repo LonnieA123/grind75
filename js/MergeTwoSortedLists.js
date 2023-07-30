@@ -26,9 +26,12 @@ let list2 = [2,6]
 //     return list.sort()
 // }
 
+//
 let mergeTwoSortedLists = function (list1, list2) {
     let output = [];
+    //list1 iterator
     let i = 0;
+    //list1 iterator
     let j = 0;
     while(i < list1.length && j < list2.length){
         if (list1[i] < list2[j]){
