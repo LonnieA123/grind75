@@ -37,7 +37,7 @@ function binarySearch(arr, target) {
             right = mid - 1; // Target is in the left half
         }
     }
-
+    //how does this work
     return -1; // Element not found
 }
 
