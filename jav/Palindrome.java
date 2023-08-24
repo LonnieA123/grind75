@@ -5,10 +5,10 @@ import java.util.Objects;
 
 public class Palindrome {
 
-//    public static Boolean isPalindrome(String input){
-//        String rev = new StringBuilder(input).reverse().toString();
-//        return input.equalsIgnoreCase(rev);
-//    }
+    public static Boolean isPalindrome2(String input){
+        String rev = new StringBuilder(input).reverse().toString();
+        return input.equalsIgnoreCase(rev);
+    }
 
     public static Boolean isPalindrome(String input){
         String[] arr = input.split("");
