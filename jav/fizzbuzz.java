@@ -3,6 +3,7 @@ package jav;
 public class fizzbuzz {
 
 
+
     public static void fizzbuzzuzz(){
 
         for (int i = 0; i <= 100; i++){
