@@ -12,6 +12,7 @@ public class Palindrome {
         return input.equalsIgnoreCase(rev);
     }
 
+    //using a for loop to reverse the string
     public static Boolean isPalindrome(String input){
         String[] arr = input.split("");
         String[] rev = new String[input.length()];
