@@ -5,6 +5,8 @@ import java.util.Objects;
 
 public class Palindrome {
 
+
+    //Using String builder
     public static Boolean isPalindrome2(String input){
         String rev = new StringBuilder(input).reverse().toString();
         return input.equalsIgnoreCase(rev);
