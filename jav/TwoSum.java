@@ -21,5 +21,11 @@ package jav;
 //Input: nums = [3,3], target = 6
 // Output: [0,1]
 
+import java.lang.reflect.Array;
+
 public class TwoSum {
+
+    public static Array tw0Sum(Array nums, int target){
+
+    }
 }
