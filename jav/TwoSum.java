@@ -22,10 +22,35 @@ package jav;
 // Output: [0,1]
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class TwoSum {
 
-    public static Array tw0Sum(Array nums, int target){
+    public static int[] tw0Sum(int[] nums, int target){
+
+        int[] answer = new int[2];
+
+        for(int i = 0; i < nums.length; i++){
+
+                for (int j = 1; j < nums.length; j++){
+                    if (nums[i] + nums[j] == target){
+                        answer[0] = i;
+                        answer[1] = j;
+                    }
+                }
+
+        }
+
+        return answer;
+
+
+    }
+
+    public static void main(String[] args) {
+
+        int[] array = {2,7,11,15};
+
+        System.out.println(Arrays.toString(tw0Sum(array, 9)));
 
     }
 }
