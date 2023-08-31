@@ -51,7 +51,7 @@ public class TwoSum {
         int[] array = {2,7,11,15};
         int[] array2 = {3,3};
 
-        System.out.println(Arrays.toString(tw0Sum(array, 9)));
+        System.out.println(Arrays.toString(tw0Sum(array2, 9)));
 
     }
 }
