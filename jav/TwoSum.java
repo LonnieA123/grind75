@@ -52,7 +52,7 @@ public class TwoSum {
         int[] array2 = {3,3};
         int[] array3 = {3,2,4};
 
-        System.out.println(Arrays.toString(tw0Sum(array2, 9)));
+        System.out.println(Arrays.toString(tw0Sum(array3, 9)));
 
     }
 }
