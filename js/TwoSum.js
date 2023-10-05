@@ -25,7 +25,7 @@
 let array = [1,6,7,4]
 
 //array 2
-let array3 = [1,5,6,7,4]
+let array3 = [1,5,6,5,4]
 
 let twoSum = function(nums, target) {
     let output = []
