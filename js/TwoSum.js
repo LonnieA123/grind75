@@ -22,7 +22,7 @@
 
 
 //array 1
-let array = [1,5,7,4]
+let array = [1,5,7,5]
 
 //array 2
 let array3 = [1,5,6,5,4]
