@@ -45,4 +45,4 @@ let twoSum = function(nums, target) {
 };
 
 console.log(twoSum(array,5))
-console.log(twoSum(array2,9))
+console.log(twoSum(array3,9))
