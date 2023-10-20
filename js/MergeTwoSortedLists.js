@@ -19,7 +19,7 @@
 
 
 let list1 = [1,3,5,5,6]
-let list2 = [2,6]
+let list2 = [2,6,5]
 
 // let mergeTwoSortedLists = function (list1,list2){
 //     let list = list1.concat(list2)
