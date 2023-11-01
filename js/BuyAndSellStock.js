@@ -25,7 +25,7 @@
              ,5
              ,2
              ,6
-             ,4
+             ,5
          ]
 
  let maxProfit = function(prices) {
